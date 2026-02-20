@@ -1,58 +1,53 @@
 [
   {
-    "id": "tutorial",
-    "name": "Tutorial",
-    "types": ["article", "resource"],
-    "color": "blue",
-    "description": "Step-by-step learning materials"
+    "name": "AI Tools",
+    "description": "人工智能工具和服务",
+    "icon": "🤖"
   },
   {
-    "id": "guide",
-    "name": "Guide",
-    "types": ["article", "resource"],
-    "color": "green",
-    "description": "How-to guides and best practices"
+    "name": "Frontend",
+    "description": "前端开发框架和工具",
+    "icon": "🎨"
   },
   {
-    "id": "documentation",
-    "name": "Documentation",
-    "types": ["article"],
-    "color": "purple",
-    "description": "Technical documentation"
+    "name": "Backend",
+    "description": "后端开发工具和框架",
+    "icon": "⚙️"
   },
   {
-    "id": "news",
-    "name": "News",
-    "types": ["article"],
-    "color": "red",
-    "description": "Latest updates and announcements"
+    "name": "Design Tools",
+    "description": "设计和原型工具",
+    "icon": "✏️"
   },
   {
-    "id": "framework",
-    "name": "Framework",
-    "types": ["resource"],
-    "color": "blue",
-    "description": "Development frameworks"
+    "name": "Productivity",
+    "description": "效率和协作工具",
+    "icon": "📊"
   },
   {
-    "id": "tool",
-    "name": "Tool",
-    "types": ["resource"],
-    "color": "green",
-    "description": "Development tools"
+    "name": "Development Tools",
+    "description": "开发辅助工具",
+    "icon": "🔧"
   },
   {
-    "id": "service",
-    "name": "Service",
-    "types": ["resource"],
-    "color": "purple",
-    "description": "Online services"
+    "name": "Learning",
+    "description": "学习资源和文档",
+    "icon": "📚"
   },
   {
-    "id": "library",
-    "name": "Library",
-    "types": ["resource"],
-    "color": "orange",
-    "description": "Code libraries"
+    "name": "Community",
+    "description": "开发者社区和论坛",
+    "icon": "👥"
+  },
+  {
+    "name": "Cloud Services",
+    "description": "云服务和部署平台",
+    "icon": "☁️"
+  },
+  {
+    "name": "Tools",
+    "description": "其他实用工具",
+    "icon": "🛠️"
   }
 ]
+
