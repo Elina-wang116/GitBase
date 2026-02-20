@@ -1,10 +1,29 @@
 import { NextResponse } from 'next/server';
 
-export async function GET() {
-  return NextResponse.json({
-    username: process.env.ADMIN_USERNAME || 'not set',
-    password: process.env.ADMIN_PASSWORD ? '***set***' : 'not set',
-    hasUsername: !!process.env.ADMIN_USERNAME,
-    hasPassword: !!process.env.ADMIN_PASSWORD
-  });
+export async function POST(request) {
+  try {
+    const { username, password } = await request.json();
+    
+    // 直接在代码中设置（临时方案）
+    const ADMIN_USER = 'admin';
+    const ADMIN_PASS = 'Rongtai2026';
+    
+    if (username === ADMIN_USER && password === ADMIN_PASS) {
+      return NextResponse.json({ 
+        success: true,
+        message: 'Login successful' 
+      });
+    }
+    
+    return NextResponse.json(
+      { success: false, message: 'Invalid credentials' },
+      { status: 401 }
+    );
+  } catch (error) {
+    return NextResponse.json(
+      { success: false, message: 'Server error' },
+      { status: 500 }
+    );
+  }
 }
+
