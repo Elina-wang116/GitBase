@@ -33,5 +33,70 @@
     "name": "Music Player",
     "description": "Online Music Player",
     "url": "https://musicplayer-olive.vercel.app/"
+  },
+  {
+    "name": "ChatGPT",
+    "description": "OpenAI 开发的强大 AI 对话助手",
+    "url": "https://chat.openai.com"
+  },
+  {
+    "name": "Claude AI",
+    "description": "Anthropic 开发的 AI 助手，擅长编程和写作",
+    "url": "https://claude.ai"
+  },
+  {
+    "name": "Midjourney",
+    "description": "强大的 AI 图像生成工具",
+    "url": "https://www.midjourney.com"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "开源的 AI 图像生成模型",
+    "url": "https://stablediffusionweb.com"
+  },
+  {
+    "name": "Notion",
+    "description": "一体化的工作空间和笔记工具",
+    "url": "https://www.notion.so"
+  },
+  {
+    "name": "Obsidian",
+    "description": "强大的本地知识库管理工具",
+    "url": "https://obsidian.md"
+  },
+  {
+    "name": "Figma",
+    "description": "基于浏览器的协作设计工具",
+    "url": "https://www.figma.com"
+  },
+  {
+    "name": "Canva",
+    "description": "简单易用的在线设计工具",
+    "url": "https://www.canva.com"
+  },
+  {
+    "name": "VS Code",
+    "description": "微软开发的免费代码编辑器",
+    "url": "https://code.visualstudio.com"
+  },
+  {
+    "name": "Stack Overflow",
+    "description": "全球最大的程序员问答社区",
+    "url": "https://stackoverflow.com"
+  },
+  {
+    "name": "MDN Web Docs",
+    "description": "Mozilla 提供的 Web 开发文档",
+    "url": "https://developer.mozilla.org"
+  },
+  {
+    "name": "Postman",
+    "description": "API 开发和测试工具",
+    "url": "https://www.postman.com"
+  },
+  {
+    "name": "Docker",
+    "description": "容器化应用开发平台",
+    "url": "https://www.docker.com"
   }
 ]
