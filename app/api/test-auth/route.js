@@ -4,11 +4,10 @@ export async function POST(request) {
   try {
     const { username, password } = await request.json();
     
-    // 直接在代码中设置（临时方案）
-    const ADMIN_USER = 'admin';
-    const ADMIN_PASS = 'Rongtai2026';
+    console.log('Login attempt:', { username, password });
     
-    if (username === ADMIN_USER && password === ADMIN_PASS) {
+    // 直接硬编码验证（最简单的方式）
+    if (username === 'admin' && password === 'Rongtai2026') {
       return NextResponse.json({ 
         success: true,
         message: 'Login successful' 
@@ -16,14 +15,18 @@ export async function POST(request) {
     }
     
     return NextResponse.json(
-      { success: false, message: 'Invalid credentials' },
+      { 
+        success: false, 
+        message: 'Invalid username or password' 
+      },
       { status: 401 }
     );
+    
   } catch (error) {
+    console.error('Login error:', error);
     return NextResponse.json(
       { success: false, message: 'Server error' },
       { status: 500 }
     );
   }
 }
-
