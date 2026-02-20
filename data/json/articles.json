@@ -54,5 +54,45 @@
     "category": null,
     "lastModified": "2024-08-11T13:16:44Z",
     "path": "data/md/managing-articles.md"
+  },
+  {
+    "title": "2026 年最值得使用的 10 个 AI 工具",
+    "description": "从 ChatGPT 到 Midjourney，这些 AI 工具将彻底改变你的工作方式",
+    "date": "2026-02-20",
+    "author": "Elina",
+    "slug": "best-ai-tools-2026",
+    "tags": ["AI", "工具推荐", "效率"]
+  },
+  {
+    "title": "Next.js 14 完整入门指南",
+    "description": "从零开始学习 Next.js 14，构建现代化的 Web 应用",
+    "date": "2026-02-19",
+    "author": "Elina",
+    "slug": "nextjs-14-guide",
+    "tags": ["Next.js", "前端", "教程"]
+  },
+  {
+    "title": "Figma vs Canva：该选择哪个设计工具？",
+    "description": "深入对比两款热门设计工具的优缺点，帮你做出正确选择",
+    "date": "2026-02-18",
+    "author": "Elina",
+    "slug": "figma-vs-canva",
+    "tags": ["设计", "工具对比", "Figma", "Canva"]
+  },
+  {
+    "title": "我的前端开发工具箱（2026 版）",
+    "description": "分享我日常使用的 20+ 个开发工具，提升开发效率",
+    "date": "2026-02-17",
+    "author": "Elina",
+    "slug": "frontend-toolbox-2026",
+    "tags": ["开发工具", "前端", "效率"]
+  },
+  {
+    "title": "GitHub 高级使用技巧：从入门到精通",
+    "description": "掌握这些 GitHub 技巧，让你的开发效率翻倍",
+    "date": "2026-02-16",
+    "author": "Elina",
+    "slug": "github-advanced-tips",
+    "tags": ["GitHub", "版本控制", "技巧"]
   }
 ]
